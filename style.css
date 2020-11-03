@@ -1,0 +1,32 @@
+div { background-color: lightblue; }
+
+.white-text { color: white; }
+   
+#gray-text {
+  color: gray; }
+
+  #navbar {
+  margin-top: 0;
+  background-color: darkslategray;
+  display: inline-block;
+  width: 100%;
+}
+
+#navbar li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#navbar li a {
+  display: block;
+  width: 120px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: sans-serif;
+}
+
+#navbar li a:hover {
+  background-color: black;
+}
